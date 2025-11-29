@@ -1,0 +1,24 @@
+proyecto-ciencia-datos/
+├── data/                          # Datos del proyecto
+│   ├── raw/                       # Datos originales (sin modificar)
+│   ├── interim/                   # Datos intermedios (procesamientos parciales)
+│   └── processed/                 # Datos procesados y limpios
+├── notebooks/                     # Jupyter/Quarto notebooks
+│   ├── exploracion/               # EDA (Exploratory Data Analysis)
+│   └── desarrollo/                # Modelos, validaciones, pruebas
+├── src/                           # Código fuente del proyecto
+│   ├── data/                      # Scripts de carga y limpieza
+│   ├── features/                  # Ingeniería de características
+│   ├── models/                    # Entrenamiento y evaluación de modelos
+│   ├── visualization/             # Gráficos y reportes automáticos
+│   └── utils/                     # Funciones auxiliares
+├── models/                        # Modelos entrenados (.pkl, .h5, .joblib)
+├── reports/                       # Reportes finales (PDF, HTML)
+│   ├── figuras/                   # Gráficos y visualizaciones
+├── docs/                          # Documentación del proyecto
+├── scripts/                       # Scripts ejecutables (bash, python)
+├── tests/                         # Pruebas unitarias
+├── configs/                       # Configuraciones en YAML o JSON
+├── environment/                   # Dependencias (requirements.txt, env.yml)
+├── README.md
+└── léame.txt
